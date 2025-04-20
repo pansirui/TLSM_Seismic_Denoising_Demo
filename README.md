@@ -6,4 +6,4 @@ For the synthetic datset,  run the function "TLSM_Denoising_Synthetic.m" from th
 
 If you are testing a different dataset and cannot obtain effective noise suppression results, please adjust the parameter settings in the function "Paraset_TLSM.m".
 
-If you have any question, please connect Pan Sirui. Email: pansr24@mails.jlu.edu.cn.
+If you have any questions, please connect Pan Sirui. Email: pansr24@mails.jlu.edu.cn.
