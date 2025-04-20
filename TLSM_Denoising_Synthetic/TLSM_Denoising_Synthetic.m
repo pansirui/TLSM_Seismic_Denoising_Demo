@@ -94,6 +94,7 @@ dc = ori;
 df = Y;
 dc = ((dc - min(dc,[],'all')) / (max(dc,[],'all') - min(dc,[],'all')))*255;
 df = ((df - min(df,[],'all')) / (max(df,[],'all') - min(df,[],'all')))*255;
+% calculate PSNR
 PSNR_Initial = PSNR3D(dc, df);
 clear dc df   
 
