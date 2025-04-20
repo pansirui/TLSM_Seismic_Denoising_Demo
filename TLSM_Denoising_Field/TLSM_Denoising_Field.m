@@ -7,12 +7,13 @@ Y = load('peno_250_150_40.mat');
 Y = Y.peno_250_150_40;
 Y = permute(Y, [2 1 3]);
 
+% normalization
 Y = ((Y - min(Y,[],'all')) / (max(Y,[],'all') - min(Y,[],'all')));
 Y = 2 * Y - 1;
  
 randn ('seed',0);
 
-% paramer settings
+% parameters setting
 tau = 0.1;
 alpha = 1;
 beta = 1; 
